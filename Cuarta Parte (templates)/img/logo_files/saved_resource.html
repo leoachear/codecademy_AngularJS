@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet">
+
+    <!-- Include the core AngularJS library -->
+    <script src="angular.min.js"></script>
+
+    <!-- Include the AngularJS routing library -->
+    <script src="angular-route.min.js"></script>
+  </head>
+  <body ng-app="GalleryApp" class="ng-scope">
+
+    <div class="header">
+      <!-- ngView:  --><div ng-view="" class="ng-scope"><div class="main ng-scope">
+  <div class="container">
+
+    <h2>Recent Photos</h2>
+    <div class="row">
+      <!-- ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/0">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/canada.jpg" src="canada.jpg">
+          <p class="author ng-binding">by Tim Gage</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/1">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/alps.jpg" src="alps.jpg">
+          <p class="author ng-binding">by Didier Baertshiger</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/2">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/elk.jpg" src="elk.jpg">
+          <p class="author ng-binding">by Thomas Lefebvre</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/3">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/france.jpg" src="france.jpg">
+          <p class="author ng-binding">by Didier Baertshiger</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/4">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/gray-fields.jpg" src="gray-fields.jpg">
+          <p class="author ng-binding">by Jeff Sheldon</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos --><div class="item col-md-4 ng-scope" ng-repeat="photo in photos">
+        <a href="https://codecademy8938328-8000.terminal.com/?nonce=1452538386555#/photos/5">
+          <img class="img-responsive" ng-src="https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/lake.jpg" src="lake.jpg">
+          <p class="author ng-binding">by Didier Baertshiger</p>
+        </a>
+      </div><!-- end ngRepeat: photo in photos -->
+    </div>
+
+  </div>
+</div>
+
+
+<script type="text/javascript" src="relay.js" class="ng-scope"></script></div>
+      
+      <div class="container">
+        <a href="https://codecademy8938328-8000.terminal.com/#/">
+          <img src="logo.svg" width="80" height="80"> フ ｫ ト フ ｫ ト
+        </a>
+      </div>
+    </div>
+
+
+
+    <!-- Modules -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="HomeController.js"></script>
+    <script src="PhotoController.js"></script>
+
+    <!-- Services -->
+    <script src="photos.js"></script>
+
+  
+
+<script type="text/javascript" src="relay.js"></script><script type="text/javascript" src="jquery.min.js"></script><script type="text/javascript" src="jquery.expect.js"></script></body></html>

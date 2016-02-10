@@ -4,13 +4,13 @@ app.config(function($routeProvider) {
   $routeProvider
     .when('/outbox', {
       controller: 'HomeController',
-      templateUrl: 'views/home.html',
+      templateUrl: 'views/home.html'
   })
     .when('/outbox/:id', {
       controller: 'EmailController',
-      templateUrl: 'views/email.html',
+      templateUrl: 'views/email.html'
   })
-    .otherWise({
+    .otherwise({
       redirectTo: '/outbox'
   });
 });

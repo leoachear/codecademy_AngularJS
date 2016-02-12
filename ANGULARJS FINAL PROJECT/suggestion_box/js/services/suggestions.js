@@ -4,12 +4,22 @@ app.factory('suggestions', [function() {
 			{
 				title: 'Free pizza at club meetings',
 				upvotes: 15,
-				comments: [],
+				comments: [
+							{
+								body:"hola",
+								upvotes: 2,
+							},
+						],
 			},
 			{
 				title: 'End all club emails with Laffy Taffy jokes',
 				upvotes: 9,
-				comments: [],
+				comments: [
+							{
+								body:"Gordo Pelusa",
+								upvotes: 22,
+							}
+						],
 			},
 			{
 				title: 'Retrofit water fountain with Gatorade',
